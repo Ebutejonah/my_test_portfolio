@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Ebute Jonah | Portfolio Website</title>
+    {%load static%}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{%static 'stylesheet2.css'%}"/>
+        <link rel="icon" type="img/ico" href="{%static 'favicon.ico'%}"/>
+        <script src="https://use.fontawesome.com/0932eddc79.js"></script>
+        <script src="../static/main.js" defer></script>
+</head>
+<body>
+    <header></header>
+    <div aria-controls="primary-navigation" aria-expanded="false" class="menu">
+        <i id="bars" class="fa fa-bars"></i>
+    </div>
+    <nav id="primary-navigation" class="dropdown">
+        <ul>
+            <li id="interests"><i class="fa fa-clone"></i>Interests
+                <div class="sub-dropdown1">
+                    <ul>
+                        <li><a href="/webdesign">Web Design</a></li>
+                        <li><a href="/appdesign">App Development</a></li>
+                        <li><a href="/machinelearning">Machine Learning</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href='/'><i class="fa fa-home"></i>Home</a></li>
+            <li><a href='/portfolio'><i class="fa fa-trophy"></i>Portfolio</a></li>
+        </ul>    
+    </nav>  
+    <main>
+        <div class="name">
+            <a href="/"><span>EBU</span>TE &nbsp;JO<span>NAH</span></a>
+        </div>
+        <hr>
+        <div>
+            <section id="portfolio">
+                <p>. Built this website ebutejonah.com from scratch using django and styled with CSS and JavaScript.</p>
+                <p>. Building an e-commerce website and a media website where mp4 and mp3 files can be accessed.</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a class="back-to-top" href="#"><i class="fa fa-chevron-up"></i></a>
+        <p>Powered by Bluegate Multinational</p>
+        <p><i class="fa fa-whatsapp"></i>&nbsp;&nbsp;08167824332</p>
+        <p>&copy;&nbsp;2022</p>
+    </footer>
+</body>
+</html>
