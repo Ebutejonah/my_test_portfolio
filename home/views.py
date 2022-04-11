@@ -14,21 +14,21 @@ def home_view(request):
     return render(request,'home/home.html',context)
 
 def portfolio_view(request):
-    obj=Home.objects.get(id=2)
+    obj=Home.objects.get(id=3)
     context={'object':obj}
     return render(request,"home/portfolio.html",context)
 
 def webdesign_view(request):
-    obj=Home.objects.get(id=2)
+    obj=Home.objects.get(id=3)
     context={'object':obj}
     return render(request,"home/web_design.html",context)
 
 def machinelearning_view(request):
-    obj=Home.objects.get(id=2)
+    obj=Home.objects.get(id=3)
     context={'object':obj}
     return render(request,"home/machine_learn.html",context)
 
 def appdev_view(request):
-    obj=Home.objects.get(id=2)
+    obj=Home.objects.get(id=3)
     context={'object':obj}
     return render(request,"home/app_dev.html",context)
