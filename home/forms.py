@@ -7,5 +7,5 @@ class ReviewForm(forms.ModelForm):
         fields= ['feedback']
 
 class RawReviewForm(forms.Form):
-    feedback= forms.CharField(widget=forms.Textarea(attrs={'rows':10, 'cols':50, 'style':'resize:none;font-family:Barlow Condensed;font-size:1rem;'}))
+    feedback= forms.CharField(widget=forms.Textarea(attrs={'rows':10, 'cols':50, 'style':'resize:none;font-family:Barlow Condensed;font-size:1rem;background:white;'}))
     
