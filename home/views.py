@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .forms import RawReviewForm
 from .models import Home,Review
 
+
 def home_view(request):
     obj=Home.objects.get(id=3)
     form=RawReviewForm() 
