@@ -5,6 +5,7 @@
     "postcss": "^8.4.20"
   },
   "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./home/static/main.css"
     "watch": "tailwindcss -i ./src/input.css -o ./home/static/main.css --watch"
   }
 }
