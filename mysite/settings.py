@@ -130,4 +130,4 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 django_heroku.settings(locals())
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-057e.up.railway.app','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['web-production-057e.up.railway.app','jonahebute.com']
