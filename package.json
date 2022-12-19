@@ -2,8 +2,12 @@
   "devDependencies": {
     "tailwindcss": "^3.2.4"
   },
-  "scripts":{
-    "build":"tailwindcss -i ./src/input.css -o ./home/static/main.css",
-    "watch":"tailwindcss -i ./src/input.css -o ./home/static/main.css --watch"
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./home/static/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./home/static/main.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20"
   }
 }
