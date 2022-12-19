@@ -4,7 +4,7 @@ from .models import Home,Review
 
 
 def home_view(request):
-    obj=Home.objects.get(id=3)
+    obj=Home.objects.all()
     form=RawReviewForm() 
     if request.method=='POST':
         form=RawReviewForm(request.POST or None)
