@@ -27,7 +27,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["www.jonahebute.com","jonahebute.com","www.jonahebute.herokuapp.com","jonahebute.herokuapp.com","https://web-production-057e.up.railway.app"]
+ALLOWED_HOSTS = ["www.jonahebute.com","jonahebute.com","www.jonahebute.herokuapp.com","jonahebute.herokuapp.com","web-production-057e.up.railway.app"]
 
 # Application definition
 
