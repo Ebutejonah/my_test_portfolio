@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="{%static 'stylesheet2.css'%}"/>
         <link rel="icon" type="img/ico" href="{%static 'favicon.ico'%}"/>
         <script src="https://use.fontawesome.com/0932eddc79.js"></script>
-        <script src="../../static/main.js" defer></script>
+        <script src="{%static 'main.js'%}" defer></script>
     </head>
     <body>
         <header></header>
@@ -39,7 +39,7 @@
             </div>
             <hr>
             <div class="main1">
-                <img class='myimage' src="../../static/jonah.jpg" alt="Jonah">
+                <img class='myimage' src="{%static 'jonah.jpg'%}" alt="Jonah">
                 <p>{{object.introduction}}</p>
             </div>
             <div class="main2">
@@ -47,9 +47,9 @@
             </div>
             <div class="main3">
                 <p>{{object.sites}}</p>
-                <a href="https://www.w3schools.com" target="_blank"><img src="../../static/w3school.png" alt='w3school'>&nbsp;w3schools</a>
-                <a href="https://www.tutorialspoint.com" target="_blank"><img src="../../static/tutorialpoint.png" alt='tutorialspoint'>&nbsp;tutorialspoint</a>
-                <a href="https://www.geeksforgeeks.org" target="_blank"><img src="../../static/geeksforgeeks.png" alt='geeksforgeeks'>&nbsp;geeksforgeeks</a>
+                <a href="https://www.w3schools.com" target="_blank"><img src="{%static 'w3school.png'%}" alt='w3school'>&nbsp;w3schools</a>
+                <a href="https://www.tutorialspoint.com" target="_blank"><img src="{%static 'tutorialpoint.png'%}" alt='tutorialspoint'>&nbsp;tutorialspoint</a>
+                <a href="https://www.geeksforgeeks.org" target="_blank"><img src="{%static 'geeksforgeeks.png'%}" alt='geeksforgeeks'>&nbsp;geeksforgeeks</a>
                 <div class="feed">
                     <p>Any feedback whatsoever regarding this website would be appreciated. Thanks.</p>
                     <form action="" method="POST">{%csrf_token%}
