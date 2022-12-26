@@ -704,7 +704,7 @@ body{
         float:right;
         width:71vw;
         right:20px;
-        position:absolute;
+        position:static;
         top:285px;
     }
     .main2 p{
