@@ -718,9 +718,12 @@ body{
 }
 
 @media  only screen and (min-width:1300px){
+    .main2{
+        top: 380px;
+        margin-top:50px;
+    }
     .main2 p{
         line-height:40px;
-        top: 380px;
     }
     .main3 p{
         line-height:40px;
