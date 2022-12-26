@@ -182,7 +182,7 @@ body{
         border:1px solid #b5fca7;
         margin:1px;
         border-radius:15px;
-        padding:60px;  
+        padding:30px;  
         transform: translateY(-42vw);
     }
     .main3 p{
@@ -494,7 +494,7 @@ body{
     }
     .main1 p::first-letter{
         font-size:200%;
-        color:#c8ff00;
+        color:#52660a;
     }
     .main1 .myimage{
         width:20vw;
@@ -715,7 +715,11 @@ body{
         line-height: 30px;
     }
 }
-
+@media only screen and (min-width=1300px){
+    .main2{
+        margin-top: 75px;
+    }
+}
 @keyframes introLoad{
     from{
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
