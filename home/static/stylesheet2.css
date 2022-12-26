@@ -382,6 +382,7 @@ body{
 @media only screen and (min-width:992px){
     body{
         font-family: Arial, sans-serif;
+        max-width: 991px;
     }
     
     .dropdown{
@@ -461,8 +462,9 @@ body{
     #bars{
         display:none;
     }
-    main{
+    /*main{
         background-color: rgba(245, 242, 245, 0.8);
+        max-width: 991px;
     }
     .name{
         position:static;
@@ -673,12 +675,13 @@ body{
         color: rgb(41, 40, 40);
         background: rgb(231, 212, 212);
         border:2px solid rgb(78, 71, 71);
-    }
+    }*/
 }
 
 @media only screen and (min-width:1200px){
     body{
         font-family: Arial, sans-serif;
+        max-width: 991px;
     }
     .dropdown ul li:hover .sub-dropdown1{
         display:block;
@@ -693,7 +696,7 @@ body{
         margin-bottom:5px;
         float:left;
     }
-    .main2{
+    /*.main2{
         background-color: rgba(245, 242, 245, 0.8);
         border:none;
         margin-top:50px;
@@ -704,7 +707,7 @@ body{
         float:right;
         width:71vw;
         right:20px;
-        position:static;
+        position:absolute;
         top:285px;
     }
     .main2 p{
@@ -713,11 +716,11 @@ body{
         color:rgb(66,63,63);
         width:100%;
         line-height: 30px;
-    }
+    }*/
    
 }
 
-@media  only screen and (min-width:1300px){
+/*@media  only screen and (min-width:1300px){
     .main2{
         top: 380px;
         margin-top:50px;
@@ -731,7 +734,7 @@ body{
     .main1 p{
         line-height:40px;
     }
-}
+}*/
 
 @keyframes introLoad{
     from{
