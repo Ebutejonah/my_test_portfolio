@@ -182,7 +182,7 @@ body{
         border:1px solid #b5fca7;
         margin:1px;
         border-radius:15px;
-        padding:30px, 30px, 30px;
+        padding:45px, 45px, 45px;
         padding-left:60px;  
         transform: translateY(-42vw);
     }
@@ -704,7 +704,6 @@ body{
         transform: translateY(0);
         float:right;
         width:71vw;
-        top:285px;
         right:20px;
     }
     .main2 p{
@@ -714,6 +713,10 @@ body{
         width:100%;
         line-height: 30px;
     }
+}
+
+@media  only screen and (min-width:1450px){
+    .main2 p{line-height:50px;}
 }
 
 @keyframes introLoad{
