@@ -6,7 +6,7 @@
     scroll-behavior:smooth;
 }
 body{
-    font-family:Arial, sans-serif;
+    font-family:"Barlow Condensed",sans-serif;
 }
 
     .dropdown{
@@ -326,7 +326,7 @@ body{
 
 @media only screen and (min-width:600px){
     body{
-        font-family: Arial, sans-serif;
+        font-family: "Barlow Condensed", sans-serif;
     }
     .dropdown{
         width:40%;
@@ -347,7 +347,7 @@ body{
 
 @media only screen and (min-width:768px){
     body{
-        font-family: Arial, sans-serif;
+        font-family: "Barlow Condensed", sans-serif;
     }
     .dropdown{
         width:30%;
@@ -381,7 +381,7 @@ body{
 
 @media only screen and (min-width:992px){
     body{
-        font-family: Arial, sans-serif;
+        font-family: "Barlow Condensed", sans-serif;
     }
     
     .dropdown{
@@ -417,7 +417,7 @@ body{
         padding:0px;
         margin:0px;
         font-size:1.6vw;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed", sans-serif;
     }
     .dropdown .fa{
         padding-right:10px;
@@ -490,7 +490,7 @@ body{
         line-height: 30px;
         padding:25px;
         margin-top:-90px;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
     }
     .main1 p::first-letter{
         font-size:200%;
@@ -517,7 +517,7 @@ body{
     }
     .main2 p{
         font-size:1.6vw;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
         color:rgb(66,63,63);
         width:100%;
         line-height: 30px;
@@ -539,13 +539,13 @@ body{
     }
     .main3 p{
         font-size:1.6vw;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
         color:rgb(66,63,63);
         line-height: 30px;
     }
     .main3 a{
         font-size:1.6vw;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
         text-decoration: none;
         color:#c8ff00;
         display:flex;
@@ -566,7 +566,7 @@ body{
         margin-bottom: 20px;
         width:fit-content;
         padding-bottom:28px;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
     }
     .feed p{
         line-height:25px;
@@ -594,7 +594,7 @@ body{
     }
     #web{
         font-size:1.6vw;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
         color:rgb(66,63,63);
         line-height: 40px;
         transform: translateY(0);
@@ -608,7 +608,7 @@ body{
     }
     #machinelearning{
         font-size:1.6vw;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
         color:rgb(66,63,63);
         line-height: 40px;
         transform: translateY(0);
@@ -621,7 +621,7 @@ body{
     }
     #android{
         font-size:1.6vw;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
         color:rgb(66,63,63);
         line-height: 40px;
         transform: translateY(0);
@@ -642,7 +642,7 @@ body{
         background-color: #000;
         font-size: 1.6vw;
         padding:20px;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
     }
     footer p{
         text-align: center;
@@ -678,7 +678,7 @@ body{
 
 @media only screen and (min-width:1200px){
     body{
-        font-family: Arial, sans-serif;
+        font-family: "Barlow Condensed",sans-serif;
     }
     .dropdown ul li:hover .sub-dropdown1{
         display:block;
@@ -709,7 +709,7 @@ body{
     }
     .main2 p{
         font-size:1.6vw;
-        font-family:Arial, sans-serif;
+        font-family:"Barlow Condensed",sans-serif;
         color:rgb(66,63,63);
         width:100%;
         line-height: 30px;
