@@ -299,8 +299,7 @@ body{
         line-height: 8vw;
     }
     .back-to-top{
-        max-width:991px;
-        position:fixed;
+        position:static;
         bottom:700px;
         right:15px;
         text-decoration:none;
